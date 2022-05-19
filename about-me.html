@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <title>Главная</title>
+    <title>Document</title>
 </head>
 <body>
     <header class="header">
@@ -20,6 +20,7 @@
                         <a href="/index.html">
                             <img src="/img/main_logo.png" alt="logo" class="header-logo" style="width: 50px;">
                         </a>
+                      
                     </li>
                     <li class="navbar-li">
                         <a href="index.html" class="navbar-a">
@@ -63,22 +64,40 @@
     </header>
 
     <main class="main">
-        <section class="main-section section-offset">
+        <section class="aboutme-section section-offset">
             <div class="container">
-                <div class="main-content">
-                    <div class="main-img1">
-                        <h1 class="main-title">
-                            Разработка сайтов
-                        </h1>
+                <div class="aboutme-content">
+                    <h1 class="aboutme-title flex">
+                        Обо мне
+                    </h1>
+                    <div class="information flex">
+                        <div class="content-left">
+                            <img src="img/me.png" alt="me" class="aboutme-logo" style="width: 240px; height: 240px;">
+                            <p class="aboutme-descr">
+                                <b>Студентка "МИДиС", группы П-28</b>
+                            </p>
+                        </div>  
+                        <div class="content-right flex">
+                            <p class="info">
+                                Вы можете оценить уровень моих навыков и посмотреть работы в данных разделах:
+                            </p>
+                            <div class="blocks flex">
+                                <a href="/skill.html" class="block">
+                                    Мои навыки
+                                </a>
+                                <a href="/portfolio.html" class="block">
+                                    Мои работы
+                                </a>
+                            </div>
+                            <p class="info">
+                                А чтобы связаться со мной нажмите сюда:
+                            </p>
+                            <a href="/contacts.html" class="block con">
+                                Контакты
+                            </a>
+                        </div>  
                     </div>
-                        
-                    
-                    <div class="main-img">
-                        <a href="portfolio.html" class="main-link">
-                            Сайт-визитка | Интернет-магазины | Другое
-                        </a>   
-                    </div>
-                                     
+                                                    
                 </div>
             </div>
         </section>
